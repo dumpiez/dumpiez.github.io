@@ -24,3 +24,10 @@ a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+footer {
+	font-size: 0.8rem;
+	position: absolute;
+	top: 100%;
+	transform: translateY(-100%)
+}
