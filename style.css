@@ -1,14 +1,8 @@
 body {
 	background-color: #10131e;
 	font-family: Jost, sans-serif;
-	line-height: 1.4em;
-	font-size: 1.2em;
-}
-
-#profile-pic {
-	width: 9em;
-	height: 9em;
-	border-radius: 50%;
+	line-height: 1.3em;
+	font-size: 16px;
 }
 
 a {
@@ -16,16 +10,26 @@ a {
 	color: white;
 }
 
-.mainContent {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+footer a {
+	text-decoration: underline;
 }
 
 footer {
-	font-size: 0.8rem;
-	position: absolute;
-	top: 100%;
-	transform: translateY(-100%)
+	font-size: 0.8em;
+}
+
+img {
+	width: 162.2px;
+	height: 162.2px;
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		font-size: 12px;
+	}
+
+	img {
+		width: 130px;
+		height: 130px;
+	}
 }
