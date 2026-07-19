@@ -22,9 +22,19 @@ export default function Header() {
         </p>
       </header>
       <nav className="text-lg pt-4">
-        <a href="#projects">[ my projects ]</a>
+        <a
+          href="#projects"
+          className="text-neutral-300 hover:text-neutral-100 transition-colors"
+        >
+          [ my projects ]
+        </a>
         {" ● "}
-        <a href="#aboutme">[ about me ]</a>
+        <a
+          className="text-neutral-300 hover:text-neutral-100 transition-colors"
+          href="#aboutme"
+        >
+          [ about me ]
+        </a>
       </nav>
     </div>
   );
