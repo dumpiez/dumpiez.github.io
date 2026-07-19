@@ -5,7 +5,7 @@ export default function About() {
       id="aboutme"
     >
       <h1 className="text-2xl md:text-4xl font-bold mt-10">about me :o</h1>
-      <section className="text-center text-pretty max-w-100 md:max-w-5xl">
+      <section className="text-center text-pretty max-w-xs md:max-w-5xl">
         <p className="text-lg md:text-2xl mt-5">
           hi! i am{" "}
           <a href="https://github.com/dumpiez/" className="text-blue-300">

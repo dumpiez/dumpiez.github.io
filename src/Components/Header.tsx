@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div className="h-screen flex justify-center items-center flex-col">
-      <header className="text-center">
+      <header className="text-center max-w-100 md:max-w-7xl">
         <h1 className="md:text-4xl font-bold pb-4 text-2xl">
           hi! i am piezzz....
         </h1>
