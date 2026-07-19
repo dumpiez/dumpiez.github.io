@@ -5,7 +5,7 @@ import perfectstart from "../img/perfectstart.jpg";
 export default function Projects() {
   return (
     <div
-      className="flex justify-start items-center h-screen flex-col"
+      className="flex justify-start items-center min-h-screen flex-col"
       id="projects"
     >
       <section className="py-10">
