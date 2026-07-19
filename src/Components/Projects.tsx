@@ -1,5 +1,7 @@
 import Card from "./Card.tsx";
 
+import perfectstart from "../img/perfectstart.jpg";
+
 export default function Projects() {
   return (
     <div
@@ -13,7 +15,7 @@ export default function Projects() {
         <section className="flex md:flex-row py-5 flex-col">
           <Card
             cardLink="https://github.com/dumpiez/perfect-start"
-            cardImage="/img/perfectstart.jpg"
+            cardImage={perfectstart}
             cardName="Perfect Start"
             cardDescription="A perfect start screen for your browser with customizability and freedom!"
           />
